@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dhanishthaawasthi.t95.AboutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_tv"
+        android:text="An Android APP to help digitilize the process of monitoring the health and wellness of new born babies, toddlers, pregnant and lactating women and teenage girls in accordance with the digital india vision of Prime Minister of India."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_margin="15dp"
+        android:textStyle="normal"
+        />
+</RelativeLayout>

